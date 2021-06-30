@@ -1,3 +1,9 @@
 *.o
 apps/thread_cancle/pthread_cancle
 apps/timers/ptmr
+.vscode/*
+apps/timer/mul_timer
+apps/mul_timer/mul_timer
+apps/seek/test
+apps/seek/seek
+apps/vcar_sys_ringqueue/ringqueue
