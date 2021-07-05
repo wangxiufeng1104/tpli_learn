@@ -7,3 +7,4 @@ apps/mul_timer/mul_timer
 apps/seek/test
 apps/seek/seek
 apps/vcar_sys_ringqueue/ringqueue
+apps/signal/signal
