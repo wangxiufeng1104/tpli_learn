@@ -9,3 +9,4 @@ apps/seek/seek
 apps/vcar_sys_ringqueue/ringqueue
 apps/sysbus/sysbusd
 apps/sysbus/libsysbus.so
+apps/signal/signal
