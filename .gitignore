@@ -1,4 +1,6 @@
 *.o
+*.txt
+*.db
 apps/thread_cancle/pthread_cancle
 apps/timers/ptmr
 .vscode/*
@@ -11,3 +13,4 @@ apps/sysbus/sysbusd
 apps/sysbus/libsysbus.so
 apps/signal/signal
 apps/file_opt/main
+apps/cjson/cjson
