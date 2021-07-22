@@ -159,6 +159,9 @@ int struct_array_to_cJSON(char *text, people worker[])
  
 			item=cJSON_CreateNumber(worker[i].height);
 			cJSON_AddItemToObject(obj_person,"height",item);
+
+            item=cJSON_CreateString("test");
+			cJSON_AddItemToObject(obj_person,"test",item);
  
 			cJSON_AddItemToArray(array_person,obj_person);
 		}
@@ -167,7 +170,8 @@ int struct_array_to_cJSON(char *text, people worker[])
  
 		out=cJSON_Print(root);
 		printf("out:%s\n",out);
- 
+        out = cJSON_PrintUnformatted(root);
+        printf("out:%s\n",out);
 		cJSON_Delete(root);
 		if(out!=NULL)
 		{
